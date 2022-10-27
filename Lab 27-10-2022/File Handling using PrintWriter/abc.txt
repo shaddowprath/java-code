@@ -1,0 +1,3 @@
+Employee name: - Prathamesh
+Employee id: - 47
+Employee salary - 10000
