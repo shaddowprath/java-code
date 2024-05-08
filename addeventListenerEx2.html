@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html>  
+<body align="center">  
+<p> This is an example of adding multiple events to the same element. </p>  
+<p> Click the following button to see the effect. </p>  
+<button id = "btn"> Click me </button>  
+<p id = "para"></p>  
+<p id = "para1"></p>  
+<script>  
+function fun() {  
+    alert("Welcome !! My Name is Prathamesh");  
+}  
+   
+function fun1() {  
+   document.getElementById("para").innerHTML =  "Welcome to Keerti Classes";  
+  
+}  
+function fun2() {  
+   document.getElementById("para1").innerHTML =  "This is Web Development";  
+}  
+var mybtn = document.getElementById("btn");  
+mybtn.addEventListener("click", fun);  
+mybtn.addEventListener("click", fun1);  
+mybtn.addEventListener("click", fun2);  
+</script>  
+</body>  
+</html>  

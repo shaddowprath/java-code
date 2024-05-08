@@ -1,0 +1,36 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+div{  
+background-color: rgb(59, 206, 255);  
+border: 6px solid red;  
+font-size: 25px;  
+text-align: center;  
+}  
+span{  
+border: 10px solid rgb(218, 241, 6);  
+}  
+</style>  
+</head>  
+<body align="center">  
+<h1> Bubbling </h1>  
+<div id = "d1">  
+Hi,My Name is Prathamesh!!.  
+<br><br>  
+<span id = "s1"> Welcome to Keerti Classes. </span>  
+</div>  
+<h1> Capturing </h1>  
+<div id = "d2"> Hi,My Name is Prathamesh!!.  
+<br><br>  
+<span id = "s2"> This is Web Development. </span>  
+</div>  
+  
+<script>  
+document.getElementById("d1").addEventListener("dblclick", function() {alert('You have double clicked on div element')}, false);  
+document.getElementById("s1").addEventListener("dblclick", function() {alert('You have double clicked on span element')}, false);  
+document.getElementById("d2").addEventListener("dblclick", function() {alert('You have double clicked on div element')}, true);  
+document.getElementById("s2").addEventListener("dblclick", function() {alert('You have double clicked on span element')}, true);  
+</script>  
+</body>  
+</html>  
