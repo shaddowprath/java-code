@@ -1,0 +1,15 @@
+<!DOCTYPE html>  
+<html>  
+<body align="center">  
+<p> Example of the addEventListener() method. </p>  
+<p> Click the following button to see the effect. </p>  
+<button id = "btn"> Click me </button>  
+<p id = "para"></p>  
+<script>  
+document.getElementById("btn").addEventListener("click", fun);  
+function fun() {  
+document.getElementById("para").innerHTML = "Hello World" + "<br>" + "Welcome to the  javaTpoint.com";  
+}  
+</script>  
+</body>  
+</html> 

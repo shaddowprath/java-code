@@ -1,0 +1,18 @@
+<html>
+    <head><h1><u>Abstarction Example.</u></h1></head>
+    <title>Javascript.</title>
+    <body align="center">
+        <script>
+            function Vehicle()
+            {
+                this.vehicleName=vehicleName;
+                throw new Error("You cannot create an instance of Abstract Class"); 
+            }
+            Vehicle.prototype.display=function()
+            {
+                return this.vehicleName;
+            }
+            var vehicle = new Vehicle();
+            </script>
+    </body>
+    </html>
