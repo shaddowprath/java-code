@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><u><h1>Example to invoke more than one static method with similar names.</u></h1>
+<body align="center">
+
+<script>
+class Test
+{
+  static display()
+  {
+    return "static method is invoked"
+  }
+  static display()
+  {
+    return "static method is invoked again"
+  }
+}
+document.writeln(Test.display());
+</script>
+
+</body>
+</html>
