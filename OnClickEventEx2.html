@@ -1,0 +1,24 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title> onclick event </title>  
+</head>  
+<body align="center">  
+<h3> This is an example of using onclick event. </h3>  
+<p> Click the following text to see the effect. </p>  
+<p id = "para">Click me</p>  
+<script>  
+document.getElementById("para").onclick = function() {  
+fun()  
+};  
+function fun() {  
+document.getElementById("para").innerHTML = "Welcome to the javaTpoint.com";  
+document.getElementById("para").style.color = "blue";  
+document.getElementById("para").style.backgroundColor = "yellow";  
+document.getElementById("para").style.fontSize = "25px";  
+document.getElementById("para").style.border = "6px solid red";   
+}  
+</script>  
+  
+</body>  
+</html>

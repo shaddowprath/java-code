@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body align="center">
+   <label for="name">Name:</label>
+   <input type="text" id="name" onfocus="handleFocus()" onblur="handleBlur()">
+   <p id= "output"></p>
+   <script>
+      const output = document.getElementById('output');
+      function handleFocus() {
+         
+         output.innerHTML += "Input has focus" + "<br>";
+      }
+      function handleBlur() {
+         
+         output.innerHTML += "Input lost focus" + "<br>";
+      }
+   </script>
+</body>
+</html>
